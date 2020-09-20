@@ -2,4 +2,4 @@
 set -e
 
 echo "Running util tests"
-python test_util.py
+python3 test_util.py

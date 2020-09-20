@@ -1,29 +1,8 @@
-# hamiltorch [![Build Status](https://travis-ci.com/AdamCobb/hamiltorch.svg?token=qJKqovbtw9EzCw99Nvg8&branch=master)](https://travis-ci.com/AdamCobb/hamiltorch)
+Extracted HMC for other purposes. Good implementation. 
+Will attribute
 
 
- PyTorch-based library for Riemannian Manifold Hamiltonian Monte Carlo (RMHMC)
- 
- * Perform HMC in user-defined log probabilities and in PyTorch neural networks (objects inheriting from the `torch.nn.Module`).
- * Available sampling schemes:
-     * HMC
-     * No-U-Turn Sampler
-     * Implicit RMHMC
-     * Explicit RMHMC
-
- ## How to install
-
-```
-pip install git+https://github.com/AdamCobb/hamiltorch
-```
-
- ## How does it work?
-
- Please refer to my [blog post](https://adamcobb.github.io/journal/hamiltorch.html), or follow the [notebook-style tutorials](https://github.com/AdamCobb/hamiltorch/tree/master/notebooks).  
-
- ## How to cite?
-
-
-Please consider citing the following paper if you use `hamiltorch` in your research:
+## Hamiltorch
 
 ```
 @article{cobb2019introducing,
